@@ -140,7 +140,7 @@ import json
 
 
 async def fetch_data(session, start, end):
-    url = "http://104.197.100.132:5000/level3"
+    url = "http://104.197.100.132:5000/level2"
     params = {'start': start, 'end': end}
 
     async with session.get(url, params=params) as response:
